@@ -146,3 +146,22 @@ p,
 .stRadio div[role="radiogroup"] label {
     color: #e8e8e8 !important;
 }
+
+/* Fixed Footer Disclaimer */
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(14, 17, 23, 0.95);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 10px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+}
+
+/* Add padding to the bottom of the main container so content isn't hidden behind the footer */
+.main .block-container {
+    padding-bottom: 150px;
+}

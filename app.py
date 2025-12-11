@@ -318,14 +318,13 @@ with tab2:
 
 
 # --- Disclaimer ---
-st.markdown("---")
 st.markdown(
     """
-    <div style='text-align: center; color: rgba(255, 255, 255, 0.4); font-size: 11px; margin-top: 50px; padding: 20px;'>
-        <p style="font-size: 14px; font-weight: bold; margin-bottom: 10px;">⚠️ DISCLAIMER: FOR ENTERTAINMENT PURPOSES ONLY ⚠️</p>
-        <p>This application is designed strictly for fun and amusement. The ranking algorithms and scores generated are simplified mathematical simulations and do not reflect real-world compatibility, human value, or future happiness. All candidate data provided by default is entirely fictional.</p>
-        <p><strong>Please do not make life-altering decisions, such as marriage, based solely on the results of this web application.</strong></p>
-        <p>Always follow your heart (and maybe some professional advice) in the real world.</p>
+    <div class="fixed-footer">
+        <p style="color: rgba(255, 255, 255, 0.5); font-size: 11px; margin: 0;">
+            <span style="font-weight: bold; color: #FF6B6B;">⚠️ DISCLAIMER: FOR ENTERTAINMENT PURPOSES ONLY ⚠️</span><br>
+            This app is a simulation for fun. Scores are fictional. Do not make life decisions based on this.
+        </p>
     </div>
     """,
     unsafe_allow_html=True
