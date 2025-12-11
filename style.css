@@ -1,0 +1,148 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Outfit', sans-serif;
+    color: #e8e8e8;
+}
+
+/* Custom Background - Dark Theme Default */
+.stApp {
+    background-color: #0e1117;
+    background-image: linear-gradient(rgba(14, 17, 23, 0.95), rgba(14, 17, 23, 0.95)),
+        url('https://images.unsplash.com/photo-1511253247232-25807407a77e?auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Glassmorphism Card Style - Dark */
+.css-1r6slb0,
+.stDataFrame,
+.stTable,
+.element-container .stDataEditor {
+    background: rgba(40, 40, 45, 0.85) !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+.stMarkdown h1,
+.stMarkdown h2,
+.stMarkdown h3 {
+    color: #ffffff !important;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Paragraph text */
+p,
+.stMarkdown p {
+    color: #e8e8e8 !important;
+}
+
+/* Metrics */
+[data-testid="stMetricValue"] {
+    font-size: 28px;
+    color: #FF6B6B !important;
+    font-weight: 700;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #d0d0d0 !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: rgba(25, 25, 30, 0.98);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+[data-testid="stSidebar"] .stMarkdown {
+    color: #e8e8e8 !important;
+}
+
+.stRadio label,
+.stTextInput label,
+.stFileUploader label,
+.stSelectbox label {
+    color: #e0e0e0 !important;
+}
+
+/* Input fields */
+.stTextInput input,
+.stSelectbox select {
+    background-color: rgba(50, 50, 55, 0.9) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Tab container */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 20px;
+    background-color: transparent;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: auto;
+    padding: 8px 16px;
+    background-color: rgba(60, 60, 65, 0.6);
+    border-radius: 8px;
+    color: #e8e8e8;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-weight: 500;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #FF6B6B !important;
+    color: white !important;
+    border: 1px solid #FF6B6B !important;
+}
+
+/* Form Submit Button */
+.stButton>button {
+    background: linear-gradient(90deg, #FF6B6B 0%, #FF8E53 100%);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
+}
+
+/* Tables and Data Editor */
+[data-testid="stHeader"] {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Data editor cells */
+.stDataFrame,
+.stDataFrame td,
+.stDataFrame th {
+    color: #e8e8e8 !important;
+    background-color: rgba(40, 40, 45, 0.5) !important;
+}
+
+/* Slider labels */
+.stSlider label {
+    color: #e8e8e8 !important;
+}
+
+/* Radio button text */
+.stRadio div[role="radiogroup"] label {
+    color: #e8e8e8 !important;
+}
